@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: White;
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	font-size: 1em;
+	color: Black;
+	font-style: normal;
+	font-family: "Century Gothic", Helvetica, Arial, Sans-serif;
+	text-indent: 2em;
+	text-align: justify;
+}
+
+a:link {
+	text-decoration: none;
+	color: MediumBlue;
+}
+
+a:visited {
+	text-decoration: none;
+	color: CornflowerBlue;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: CornflowerBlue;
+}
+
+a:active {
+	text-decoration: underline;
+	color: LightSteelBlue;
+}
+	
+
+h1 {
+	font-size: 3em;
+	color: Navy;
+	font-style:normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+	font-size: 2em;
+	color: RoyalBlue;
+	font-style: normal;
+	font-family: "Centuy Gothic", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+	font-size: 1.5em;
+	color: Black;
+	font-style: normal;
+	font-family: "Centuy Gothic", Helvetica, Arial, sans-serif;
+}
+
+h4 {
+	font-size: 1em;
+	color: Gray;
+	font-style: oblique;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+div {
+	width:1100px;
+	margin: auto;
+	padding: 0px;
+	background-color: GhostWhite;
+	box-shadow: 10px 10px 5px #888888;
+	border: solid;
+	border-color: SteelBlue;
+}
+
+img {
+	box-shadow: 10px 10px 5px #888888;
+	border: 3px inset AliceBlue;
+}
+
+section {
+	vertical-align: auto;
+}
+
+header {
+	width:: 1100px;
+	margin: auto;
+}
+
+	.headerTable {
+		font-size: 1.25em;
+		color: DarkGray;
+		font-style: normal;
+		font-family: "Centuy Gothic", Helvetica, Arial, sans-serif;
+		margin-left: 50px;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+	.title {
+		text-align: center;
+	}
+	
+section {
+	width: 600px;
+}
+
+article {
+	padding: 20px;
+	display: block;
+	float: left;
+}
+
+	#alignLeft {
+		text-align: left;	
+	}
+
+footer {
+	width:1060px;
+	margin: auto;
+	padding: 20px;
+	clear: both;
+	background-color: SteelBlue;
+}
+
+	.footerTable {
+	font-size: 0.75em;
+	color: Darkgray;
+	font-style: oblique;
+	font-family: "Centuy Gothic", Helvetica, Arial, sans-serif;
+	margin: auto;
+	text-align: center;
+	width: 900px;
+}
+	
+hr {
+	color: "White";
+	alignment-adjust:middle;
+	width: 90%;
+}
+
+table {
+	text-align: center;
+	padding: 20px;
+}
+
+	td {
+	}
+	.profileCell {
+		width: 125px;
+	}
+	.main_article {
+		border: none;
+	}
+	
+	#mainBodyContent {
+		width: 1060px; 
+	}
