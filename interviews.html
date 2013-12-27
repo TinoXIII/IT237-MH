@@ -17,13 +17,13 @@
 <body>
 <div id="wrapper">
 <!-- Header block -->
-<header>
+<header id="head">
     <img id="header_img" src="Images/main_logo.png" alt="DigitalXIII.com"/>
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="reviews.html">Reviews</a> |
-        <a href="interviews.html">Interviews</a> |
-        <a href="about.html">About...</a> |
+        <a href="index.html" class="alternate">Home</a> |
+        <a href="reviews.html" class="alternate">Reviews</a> |
+        <a href="interviews.html" class="alternate">Interviews</a> |
+        <a href="about.html" class="alternate">About...</a> |
     </nav>
     <!-- InstanceBeginEditable name="Page Title" -->
     <h1 class="center_text">DigitalXIII Interviews</h1>
@@ -37,11 +37,16 @@
   <div>
     <article class="primary">
       <header>
-        <h3 class="center_text">This is the Primary Article</h3>
-        <img id="primary_img" src="Images/primary_article.jpg" alt="Image from the Primary Article" /></header>
-      <p class="paragraph_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultricies lacus vel orci tempor aliquam. Fusce tincidunt nisl id turpis rutrum imperdiet. Mauris lobortis rhoncus sollicitudin. Suspendisse potenti. Maecenas feugiat pulvinar leo non vehicula. Quisque semper neque arcu, vitae gravida mauris sollicitudin et. Donec quis laoreet lorem. Cras accumsan nibh ut lorem fermentum consequat. Nam sit amet vestibulum orci. Nunc et nisi nec felis congue hendrerit. Pellentesque interdum iaculis metus eu tincidunt. Integer eget sapien accumsan mi fringilla pulvinar. Praesent feugiat tellus sit amet elementum luctus. Phasellus rhoncus, urna et commodo consectetur, diam quam porttitor orci, sit amet tempor dolor diam vel dui...<a href="">Read More</a></p>
-      <footer> <img class="auth_img" src="Images/Contributers/HendersonMartino.jpg" alt="Firstname Lastname" /> Written By: FirstName LastName </footer>
-    </article>
+        <h3 class="center_text"><a class="headers" href="Interviews/2013-11-30-A_Short_Interview_With_Our_Founder.html">A Short AutoBiography With Our Founder<br />Martino Henderson</a></h3>
+      </header>
+      <p class="paragraph_text">Hello, my name is Martino Sinatra Henderson, Sr. and this is me. I grew up in Chicago, Illinois where I was raised by my working class Mother and Step-Father. I never got to know my biological father and never really got to miss him either. My step-father has been there for me since I was one year old, in other words before I could remember. I was raised in a house full of adults and there were not many children in the neighborhood where I lived. My brother was not born until after I turned five years old. In short I grew up very mature for my age and learned to be independent very early. My parents allowed me to be free to explore my curiosities without the constant overview or tether to their hips. I enjoyed horror movies at a very young age and did not scare very easily, or perhaps I enjoyed the feeling of being afraid because there was not much ease to worry about in my early life.<a href="Interviews/2013-11-30-A_Short_Interview_With_Our_Founder.html">Read More</a></p>
+      <footer>
+      	<figure>
+      		<img class="auth_img" src="Images/Contributers/HendersonMartino.jpg" alt="Martino Henderson" />
+        	<figcaption>Written By: Martino Henderson<br />November 30, 2013</figcaption>
+        </figure>
+    </footer>
+   </article>
   </div>
   <!-- END PRIMARY ARTICLE BLOCK -->
   <!-- Left Section block -->
@@ -94,28 +99,28 @@
 <!-- Footer Section -->
 <section>
 <footer id="tail">
-    <table id="links_table">
+  <table id="links_table">
         <tr>
             <td>
                 Personal Sites
                 <ul>
-                    <li><a href="http://www.tinoxiii.com" target="new">www.TinoXIII.com</a></li>
+                    <li><a class="alternate" href="http://www.tinoxiii.com" target="new">www.TinoXIII.com</a></li>
                 </ul>
             </td>	
             <td>
             Social Media sites
                 <ul>
-                    <li><a href="https://www.google.com/+MartinoHenderson" target="new">Google+</a></li>
-                    <li><a href="http://www.facebook.com" target="new">Facebook</a></li>
-                    <li><a href="http://www.twitter.com/tinoxiii" target="new">Twitter</a></li>
+                    <li><a class="alternate" href="https://www.google.com/+MartinoHenderson" target="new">Google+</a></li>
+                    <li><a class="alternate" href="http://www.facebook.com" target="new">Facebook</a></li>
+                    <li><a class="alternate" href="http://www.twitter.com/tinoxiii" target="new">Twitter</a></li>
                 </ul>
             </td>
             <td>
             Other Media sites
                 <ul>
-                    <li><a href="http://tinoxiii.tumblr.com/" target="new">Tumblr</a></li>
-                    <li><a href="http://www.flickr.com/photos/tinoxiii/" target="new">Flickr</a></li>
-                    <li><a href="http://soundcloud.com/tinoxiii" target="new">SoundCloud</a></li>
+                    <li><a class="alternate" href="http://tinoxiii.tumblr.com/" target="new">Tumblr</a></li>
+                    <li><a class="alternate" href="http://www.flickr.com/photos/tinoxiii/" target="new">Flickr</a></li>
+                    <li><a class="alternate" href="http://soundcloud.com/tinoxiii" target="new">SoundCloud</a></li>
                 </ul>
             </td>
         </tr>
