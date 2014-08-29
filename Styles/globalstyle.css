@@ -1,161 +1,209 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-	background-color: White;
-	margin: 0px;
-	padding: 0px;
+h1 {
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	font-size: 4em;
+	color: DodgerBlue;
+	text-shadow: 5px 5px 10px #c3c3c3;
+}
+
+h2 {
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	font-size: 3em;
+	color: LightSlateGray;
+}
+
+h3 {
+	font-family:"Century Gothic", Verdana, Helvetica, Sans-serif;
+	font-size: 2.5em;
+	color: Black;
 }
 
 p {
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
 	font-size: 1em;
 	color: Black;
-	font-style: normal;
-	font-family: "Century Gothic", Helvetica, Arial, Sans-serif;
-	text-indent: 2em;
-	text-align: justify;
 }
 
 a:link {
 	text-decoration: none;
-	color: MediumBlue;
-}
-
-a:visited {
-	text-decoration: none;
-	color: CornflowerBlue;
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	font-size: 1em;
+	color: RoyalBlue;
 }
 
 a:hover {
 	text-decoration: underline;
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	font-size: 1em;
 	color: CornflowerBlue;
 }
 
 a:active {
 	text-decoration: underline;
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	font-size: 1em;
 	color: LightSteelBlue;
 }
-	
 
-h1 {
-	font-size: 3em;
-	color: Navy;
-	font-style:normal;
-	font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h2 {
-	font-size: 2em;
-	color: RoyalBlue;
-	font-style: normal;
-	font-family: "Centuy Gothic", Helvetica, Arial, sans-serif;
-}
-
-h3 {
-	font-size: 1.5em;
-	color: Black;
-	font-style: normal;
-	font-family: "Centuy Gothic", Helvetica, Arial, sans-serif;
-}
-
-h4 {
+a:visited {
+	text-decoration: none;
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
 	font-size: 1em;
-	color: Gray;
-	font-style: oblique;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	color: DarkSteelBlue;
 }
 
-div {
-	width:1100px;
-	margin: auto;
-	padding: 0px;
-	background-color: GhostWhite;
-	box-shadow: 10px 10px 5px #888888;
-	border: solid;
-	border-color: SteelBlue;
+a.alternate:link {
+	text-decoration: none;
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	font-size: 1em;
+	color: WhiteSmoke;
 }
 
-img {
-	box-shadow: 10px 10px 5px #888888;
-	border: 3px inset AliceBlue;
+a.alternate:hover {
+	text-decoration: underline;
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	font-size: 1em;
+	color: White;
 }
 
-section {
-	vertical-align: auto;
+a.alternate:active {
+	text-decoration: underline;
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	font-size: 1em;
+	color: WhiteSmoke;
 }
 
-header {
-	width:: 1100px;
-	margin: auto;
+a.alternate:visited {
+	text-decoration: none;
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	font-size: 1em;
+	color: WhiteSmoke;
 }
 
-	.headerTable {
-		font-size: 1.25em;
-		color: DarkGray;
-		font-style: normal;
-		font-family: "Centuy Gothic", Helvetica, Arial, sans-serif;
-		margin-left: 50px;
-		margin-right: 0px;
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
-	
-	.title {
-		text-align: center;
-	}
-	
-section {
-	width: 600px;
+a.headers:link {
+	text-decoration: none;
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	font-size: 1em;
+	color: black;
+}
+
+a.headers:visited {
+	text-decoration: none;
+	font-family:"Century Gothic", Verdana, Helvetica, Sans-serif;
+	color: Black;
+}
+
+a.headers:hover {
+	text-decoration: underline;
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	color: CornflowerBlue;
+}
+
+a.headers:active {
+	text-decoration: underline;
+	font-family:"Century Gothic", Verdana, Helvetica, Sans-serif;
+	color:LightSteelBlue;
+}	
+
+figcaption {
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	font-size: 0.75em;
+	color: Black;
+}
+
+nav {
+	margin: 0px auto;
+	padding: 5px;
+	height: 1.25em;
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	font-size: 1.25em;
+	text-align: center;
+	text-decoration: none;
+	background: RoyalBlue;
+}
+
+.paragraph_text {
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	font-size: 1em;
+	color: Black;
+	text-align: justify;
+	text-indent: 2em;
+}
+
+.center_text {
+	text-align: center;
+}
+
+address {
+	font-size: 0.75em;
 }
 
 article {
-	padding: 20px;
-	display: block;
+	width: 500px;
+	margin: 10px auto;
+	padding: 10px 20px;
+}
+
+article.primary {
+	width: 1000px;
+	float: none;
+}
+
+.left {
 	float: left;
 }
 
-	#alignLeft {
-		text-align: left;	
-	}
+.right {
+	float: right;
+}
 
 footer {
-	width:1060px;
-	margin: auto;
-	padding: 20px;
+	width: 1000px;
+	margin:50px auto 10px;
+	float: none;
+}
+
+#links_table {
+	width: 1000px;
+	margin: 5px auto;
+	padding: 5px;
+	font-family: "Century Gothic", Verdana, Helvetica, Sans-serif;
+	color: WhiteSmoke;
 	clear: both;
-	background-color: SteelBlue;
 }
 
-	.footerTable {
-	font-size: 0.75em;
-	color: Darkgray;
-	font-style: oblique;
-	font-family: "Centuy Gothic", Helvetica, Arial, sans-serif;
-	margin: auto;
-	text-align: center;
-	width: 900px;
-}
-	
-hr {
-	color: "White";
-	alignment-adjust:middle;
-	width: 90%;
+#tail {
+	width: auto;
+	background: RoyalBlue;
+	clear: both;
 }
 
-table {
-	text-align: center;
-	padding: 20px;
+#wrapper {
+	width: 1200px;
+	margin: 0px auto;
+	background: GhostWhite;
+	box-shadow: 5px 5px 10px #C3C3C3;
 }
 
-	td {
-	}
-	.profileCell {
-		width: 125px;
-	}
-	.main_article {
-		border: none;
-	}
-	
-	#mainBodyContent {
-		width: 1060px; 
-	}
+#header_img {
+	width: 100%;
+	height: 250px;
+	margin: 0px auto;
+}
+
+#primary_img {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+img.article_img {
+	width: 500px;
+	margin: 0px auto;
+}
+
+img.auth_img {
+	with: 50px;
+	height:60px;
+}
